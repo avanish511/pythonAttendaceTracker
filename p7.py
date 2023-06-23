@@ -12,13 +12,13 @@ import requests
 from twilio.rest import Client
 
 # Twilio API configuration
-TWILIO_ACCOUNT_SID = 'ACcb3ee86a938f5cbf20f348e505cb160d'
-TWILIO_AUTH_TOKEN = '75c437c73ad084056403c408d7aa8085'
-TWILIO_PHONE_NUMBER = '+13613102463'
+TWILIO_ACCOUNT_SID = 'your own SSID from Twilio'
+TWILIO_AUTH_TOKEN = 'your own auth_token from Twilio'
+TWILIO_PHONE_NUMBER = 'your own phone_number from Twilio'
 
 # Sendinblue API configuration
-SENDINBLUE_API_KEY = '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'
-SENDER_EMAIL = 'stuffynaan@gmail.com'
+SENDINBLUE_API_KEY = 'your own sendinblue apikey'
+SENDER_EMAIL = 'your own eamil'
 
 # Loading the Excel sheet
 excel_file = 'D:\\attendace.xlsx'
